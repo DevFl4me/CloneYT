@@ -1,2 +1,2 @@
 # CloneYT
- criei um clone de uma página aleatoria do YouTube
+ criei um clone de uma página aleatória do YouTube
