@@ -1,0 +1,113 @@
+@import url(index.css);
+@import url(fonts.css);
+
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top:0;
+    padding: 20px;
+    gap: 10px;
+    width: 100%;
+    height: 56px;
+    background-color: rgb(0, 0, 0);
+}
+.left{
+    width: 30%;
+    display: flex;
+    gap: 20px;  
+    background-color: rgba(255, 0, 0, 0);
+}
+.center{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+}
+.center button{
+    border: solid 1px rgb(43, 43, 43);
+    padding: 1px 6px;
+    width: 60px;
+    height: 42px;
+    border-radius:0px 35px 35px 0px;
+    background-color: #ffffff14;
+}
+#container-input{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 600px;
+    height: 35px;
+    border: solid 1px rgb(36, 36, 36);
+    border-radius: 30px 0px 0px 30px ;
+    border-right:rgb(48, 48, 48) 1px solid;
+    padding: 20px;
+}
+#container-input input{
+    border: none;
+    height: 20px;
+    flex-grow: 1;
+    background-color: black;
+    color: white;
+}
+.btn-audio{
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    background-color:#ffffff14;
+    margin-left: 20px;
+    border-radius: 100%;
+}
+.btn-audio:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: #424242;
+}
+.btn-audio:hover .dicaTexto{
+    visibility: visible;
+    font-size: 12px;
+    width: 150px;
+    margin-top: 100px;
+    background-color: #424242;
+    border-radius: 5px;
+    padding: 9px;
+    text-align: center; 
+}
+.dicaTexto{
+    position: absolute;
+    visibility: hidden;
+}
+
+/* RETIRA BORDA BRANCA AO CLICAR NO INPUT */
+#container-input input:focus{
+   outline: none;
+ 
+}
+/* ALMENTA FONT DO PLACEHOLDER DO INPUT */
+#container-input input::placeholder{
+    font-size: 16px;
+}
+.rigth{
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    width: 30%;
+    margin-right: 20px;
+}
+.styleDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius:100% ;
+}
+.styleDiv:hover{
+    background-color: #424242;
+    cursor: pointer;
+}

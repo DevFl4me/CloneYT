@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!--  -->
+    <link rel="icon" href="assets/images/iconsMain/favIcon.svg" type="image/png">
+    <link rel="stylesheet" href="assets/styles/index.css">
+    <!-- Title -->
+    <title>Youtube</title>
+</head>
+<body>
+    <header class="menu">
+        <div class="left">
+           <img src="assets/images/iconsHeader/menu.svg" alt="menuYoutube" style="cursor:pointer;">
+           <img src="assets/images/iconsHeader/youtube.png" width="90" height="55" alt="logoYoutube" title="Página inicial do YouTube" style="cursor:pointer;">
+        </div>
+        <div class="center">
+            <div id="container-input">
+                <input type="text" placeholder="Pesquisar">
+                <img src="assets/images/iconsMain/keyboard.svg" alt="teclado-digital">
+            </div>
+            <button><img src="assets/images/iconsHeader/search.svg" alt="pesquisar"></button>
+            <div class="btn-audio">
+                <img src="assets/images/iconsHeader/micAudio.svg" alt="icone do microfone para pesquisar com voz">
+                <div class="dicaTexto">Pesquisar com sua voz</div>
+            </div>
+        </div>
+        <div class="rigth">
+            <div class="styleDiv">
+                <img src="assets/images/iconsHeader/videocam.svg" alt="CamVideo">
+            </div>
+            <div class="styleDiv">
+                <img src="assets/images/iconsHeader/bel.svg" alt="Sino de notificação do youtube">
+            </div>
+            <div class="styleDiv">
+                <img src="assets/images/iconsHeader/avatar2.svg" width="24px" height="24px" alt="Icone de perfil">
+            </div>
+        </div>
+    </header>
+    <main>
+        <aside class="asideEsquerdo">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/cUntE5r75FQ?si=YdLu6uDY4wJ0NQcz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius:10px 10px 0px 0px; width: 100%; height: 700px;"></iframe>
+            <h1>PASSARAM UMA RESOLUÇÃO PARA O CORINGA NO VALORANT, ELE ESTÁ SE SENTINDO O ASPAS</h1>
+            <div class="row">
+                <div class="info-canal">
+                    <div class="containerPerfilYt">
+                        <div class="iconPerfilYt">
+                            <img src="assets/images/iconsMain/logoCanal.jpg" width="45px" height="45px" style="border-radius: 100%;" alt="Icone do Canal" title="Icone do canal">
+                        </div>
+                        <div class="namePerfil">
+                            <h4>TARTARUGA CLIPS</h4>
+                            <p>63,6 mil inscritos</p>
+                        </div>
+                    </div>
+                    <button id="inscrever-se">Inscrever-se</button>
+                </div>
+                <div class="info-likes">
+                    <!-- Thumb-up e thumb-down -->
+                    <div class="container-thumbs">
+                        <div class="thumb-up" title="Marcar como ''Gostei'' ">
+                            <img src="assets/images/iconsMain/thumb_up.svg" alt="Gostei"><span>2,3 mil</span>
+                        </div>
+                        <hr id="hr-line" >
+                        <div class="thumb-down" title="Marcar como ''Não gostei'' ">
+                            <img src="assets/images/iconsMain/thumb_down.svg" alt="Não gostei">
+                        </div>
+                    </div>
+                    <!-- Share -->
+                     <div class="container-option" title="Compartilhar">
+                        <img src="assets/images/iconsMain/share.svg" alt="Compartilhar"><span>Compartilhar</span>
+                     </div>
+                     <!-- Download -->
+                      <div class="container-option" title="Download">
+                        <img src="assets/images/iconsMain/download.svg" alt="Fazer download"><span>Download</span>
+                      </div>
+                      <!-- Clipe -->
+                       <div class="container-option" title="Clipe">
+                         <img src="assets/images/iconsMain/clipe.svg"><span>Clipe</span>
+                       </div>
+                       <!-- Options -->
+                       <div class="container-option radius">
+                        <img src="assets/images/iconsMain/tresPontos.svg"><span></span>
+                      </div>
+                </div>
+            </div>
+            <section class="visualizacoes">
+                <p>93 mil visualizações há mais de um mês</p>
+                <p id="descricao">PASSARAM UMA RESOLUÇÃO PARA O CORINGA NO VALORANT, ELE ESTÁ SE SENTINDO O ASPAS <span id="verMais">...mais</span></p>
+            </section>
+        </aside>
+        <!-- videos lado direito -->
+        <aside class="asideDireito">
+            <section class="videos">
+                <!-- video 1 -->
+                <div class="container-video">
+                    <img src="assets/images/imagesThumNail/sujeitoProgramador.webp" alt="Video sujeitoProgramador" class="thumbnail">
+                    <video class="video" muted>
+                        <source src="assets/videos/sujeitoProgramador.mp4" loop>
+                        Seu navegador não suporta a tag de vídeo.
+                    </video>
+                </div>
+                <!-- video 2 -->
+                <div class="container-video">
+                    <img src="assets/images/imagesThumNail/alanzoka.webp" alt="Video alanzoka" class="thumbnail">
+                    <video class="video" muted>
+                        <source src="assets/videos/alanZoka.mp4" loop>
+                        Seu navegador não suporta a tag de vídeo.
+                    </video>
+                </div>
+                <!-- video 3 -->
+                <div class="container-video">
+                    <img src="assets/images/imagesThumNail/champions.webp" alt="Video champions" class="thumbnail">
+                    <video class="video" muted>
+                        <source src="assets/videos/championsLeague.mp4" loop>
+                        Seu navegador não suporta a tag de vídeo.
+                    </video>
+                </div>
+                 <!-- video 4 -->
+                 <div class="container-video">
+                    <img src="assets/images/imagesThumNail/devClub.webp" alt="Video devClub" class="thumbnail">
+                    <video class="video" muted>
+                        <source src="assets/videos/devClub.mp4" loop>
+                        Seu navegador não suporta a tag de vídeo.
+                    </video>
+                </div>
+                 <!-- video 5 -->
+                 <div class="container-video">
+                    <img src="assets/images/imagesThumNail/felipeRocha.webp" alt="Video felipeRocha" class="thumbnail">
+                    <video class="video" muted>
+                        <source src="assets/videos/felipeRocha.mp4" loop>
+                        Seu navegador não suporta a tag de vídeo.
+                    </video>
+                </div>
+                 <!-- video 6 -->
+                 <div class="container-video">
+                    <img src="assets/images/imagesThumNail/jogoAberto.webp" alt="video jogoAberto" class="thumbnail">
+                    <video class="video" muted>
+                        <source src="assets/videos/" loop>
+                        Seu navegador não suporta a tag de vídeo.
+                    </video>
+                </div>
+            </section>
+            <!-- Descrição dos videos -->
+            <section class="descricao-videos">
+                <div class="container-descricao">
+                    <div class="descricao">
+                        <span class="titulo-descricao roboto-medium">Criando slider com HTML,CSS e javaScript</span>
+                        <p class="nome-canal">Sujeito Programador</p>
+                        <p class="visualizacoes-canal">120 mil visualizações • há mais de 2 anos</p>
+                    </div>
+                    <div class="opcoes-descricao"><img src="assets/images/iconsMain/tresPontos.svg" alt="opões"></div>
+                </div>
+                <div class="container-descricao">
+                    <div class="descricao">
+                        <span class="titulo-descricao roboto-medium">NUNCA PEGUE ESSE ÔNIBUS! - NIGHT BUS (TODOS OS FINAIS)</span>
+                        <p class="nome-canal">Alanzoka</p>
+                        <p class="visualizacoes-canal">320 mil visualizações • há 1 dia</p>
+                    </div>
+                    <div class="opcoes-descricao"><img src="assets/images/iconsMain/tresPontos.svg" alt="opões"></div>
+                </div>
+                <div class="container-descricao">
+                    <div class="descricao">
+                        <span class="titulo-descricao roboto-medium">OS 5 GOLAÇOS DE COUTINHO NA CHAMPIONS LEGAUE</span>
+                        <p class="nome-canal">Melhor Futebol Do Mundo - TNT SPORTS</p>
+                        <p class="visualizacoes-canal">120 mil visualizações • há mais de 4 meses</p>
+                    </div>
+                    <div class="opcoes-descricao"><img src="assets/images/iconsMain/tresPontos.svg" alt="opões"></div>
+                </div>
+                <div class="container-descricao">
+                    <div class="descricao">
+                        <span class="titulo-descricao roboto-medium">Criando slider com HTML,CSS e javaScript</span>
+                        <p class="nome-canal">DevClub</p>
+                        <p class="visualizacoes-canal">120 mil visualizações • há mais de 1 ano</p>
+                    </div>
+                    <div class="opcoes-descricao"><img src="assets/images/iconsMain/tresPontos.svg" alt="opões"></div>
+                </div>
+                <div class="container-descricao">
+                    <div class="descricao">
+                        <span class="titulo-descricao roboto-medium">Aprenda a Hospedar GRATUITAMENTE Seus Sites.</span>
+                        <p class="nome-canal">Felipe Rocha • dicasparadev</p>
+                        <p class="visualizacoes-canal">120 mil visualizações • há mais de 2 anos</p>
+                    </div>
+                    <div class="opcoes-descricao"><img src="assets/images/iconsMain/tresPontos.svg" alt="opões"></div>
+                </div>
+                <div class="container-descricao">
+                    <div class="descricao">
+                        <span class="titulo-descricao roboto-medium"> [AO VIVO] JOGO ABERTO | 08/07/2024</span>
+                        <p class="nome-canal">Jogo Aberto</p>
+                        <p class="visualizacoes-canal">440 mil visualizações • Ao vivo</p>
+                    </div>
+                    <div class="opcoes-descricao"><img src="assets/images/iconsMain/tresPontos.svg" alt="opões"></div>
+                </div>
+            </section>
+        </aside>
+    </main>
+<script src="assets/scripts/script.js"></script>
+</body>
+</html>

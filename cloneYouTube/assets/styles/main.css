@@ -1,0 +1,236 @@
+@import url(index.css);
+@import url(fonts.css);
+
+main{
+   display: flex;
+   width: 100%;
+   height: 100vh;
+
+}
+/* Lado esquerdo aonde será reinderizado o video e informações do canal */
+.asideEsquerdo{
+    display: flex;
+    flex-direction: column;
+    width: 1280px;
+    height: 900px;
+    border-radius:10px 10px 0px 0px ;
+    margin-top: 84px;
+    margin-left: 110px;
+    gap: 16px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
+.row .info-canal{
+    width: 50%;
+    display: flex;
+}
+.row .info-likes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+.row .containerPerfilYt{
+    display: flex;
+    text-align: center;
+    gap: 5px;
+    width: 200px;
+}
+.row .iconPerfilYt{
+    width: 42px;
+    height: 42px;
+    border-radius: 100%;
+    background-color: rgb(171, 136, 204);
+}
+.row .namePerfil{
+    font-size: 14px;
+}
+.row #inscrever-se{
+    width: 120px;
+    height: 35px;
+    font-size: 14px;
+    align-self: center;
+    background-color: #ffffff;
+    color: black;
+    font-weight: 450;
+    text-align: center;
+    border: none;
+    border-radius: 40px;
+}
+#inscrever-se:hover{
+    cursor: pointer;
+    background-color: #f6f6f6dc;
+}
+/* thumb up e thumb down */
+.container-thumbs{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 135px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #363636;
+}
+.thumb-up{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    width: 65%;
+    height: 40px;
+}
+.thumb-up span{
+    flex-direction: row;
+    font-size:14px;
+    font-weight: 400;
+}
+.thumb-up:hover{
+    background-color: #646464b2;
+    cursor: pointer;
+    height: 40px;
+    border-radius: 30px 0px 0px 30px;
+}
+.thumb-down{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+}
+.thumb-down:hover{
+    background-color: #646464b2;
+    cursor: pointer;
+    height: 40px;
+    border-radius: 0px 30px 30px 0px;
+}
+#hr-line{
+    height: 20px;
+    margin: 0;
+}
+/* Share */
+.container-option{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 5px;
+    width: auto;
+    height: 40px;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: #363636 ;
+}
+.container-option:hover{
+    background-color: #646464b2;
+    cursor: pointer;
+}
+/* options */
+.radius{
+    display: flex;
+    justify-content: center;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+}
+.visualizacoes{
+    display: flex;
+    flex-direction:column;
+    gap: 5px;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+    background-color: #363636dc;
+    border-radius: 10px;
+}
+/* visualizações */
+#verMais:hover{
+    cursor: pointer;
+    
+}
+#descricao{
+    font: 14px;
+    font-weight: 300;
+}
+/* FIM ASIDE ESQUERDO */
+
+/* INICIO ASIDE DIREITO */
+.asideDireito{
+    display: flex;
+    width: 480px;
+    height: 100%;
+    margin-top: 84px;
+    margin-left:20px;
+}
+.videos{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 50%;
+    height: auto;
+}
+.container-video{
+    display: flex;
+    cursor: pointer;
+    height: 120px;
+    border-radius: 9px;
+}
+.thumbnail{
+    border-radius: 9px;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* box-shadow: 0 2px 4px rgba(255, 255, 255, 0.199); Sombra leve */
+}
+
+.video{
+    display: none;
+    height: 100%;
+    width: 100%;
+    border-radius: 9px;
+}
+.descricao-videos{
+    width: 50%;
+    height: auto;
+
+}
+.container-descricao{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 8px;
+    height: 120px;
+    width:100%;
+    border-radius: 9px;
+}
+.opcoes-descricao{
+    width: 30px;
+    height: 100%;
+}
+.descricao-videos{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.descricao{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.titulo-descricao{
+    font-size: 15px;
+}
+.nome-canal{
+    margin-top: 10px;
+    color: #aaaaaa;
+    font-size: 13px;
+}
+.visualizacoes-canal{
+    margin-top: 3px;
+    color: #aaaaaa;
+    font-size: 13px;
+}
